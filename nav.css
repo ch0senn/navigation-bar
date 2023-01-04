@@ -1,4 +1,4 @@
-nav ul{
+nav > ul{
     display:flex;
 }
 
@@ -17,3 +17,7 @@ nav li a{
     color: black;
 }
 
+/* Nested menu  */
+nav .dropdown{
+    display: none;
+}
