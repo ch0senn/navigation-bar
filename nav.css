@@ -18,6 +18,10 @@ nav li a{
 }
 
 /* Nested menu  */
-nav .dropdown{
+nav li .dropdown{
     display: none;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
