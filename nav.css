@@ -20,6 +20,9 @@ nav li a{
 /* Nested menu  */
 nav li .dropdown{
     display: none;
+    position: absolute;
+    background-color: lightcyan;
+    padding: 0px ;
 }
 
 nav li:hover .dropdown{
