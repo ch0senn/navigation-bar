@@ -22,9 +22,9 @@ nav li .dropdown{
     display: none;
     position: absolute;
     background-color: lightcyan;
-    padding: 0px ;
+    padding: 5px ;
 }
 
-nav li:hover .dropdown{
+nav li:hover > .dropdown{    /* we use > for only hover nav-li */
     display: block;
 }
